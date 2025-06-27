@@ -1,0 +1,41 @@
+[Start]
+   |
+   v
+[User Opens Registration Page]
+   |
+   v
+[User Inputs Registration Details]
+   |
+   v
+[Validate Input Fields]
+   |
+   +--> [Validation Failed?] --Yes--> [Show Error Messages]
+   |                                   ^
+   |                                   |
+   |-------------------No--------------|
+   |
+   v
+[Check If Email Already Exists]
+   |
+   +--> [Email Exists?] --Yes--> [Show "Email Already Registered"]
+   |                                   ^
+   |                                   |
+   |-------------------No--------------|
+   |
+   v
+[Hash User Password]
+   |
+   v
+[Insert User Record into Database]
+   |
+   v
+[Send Confirmation/Welcome Message]
+   |
+   v
+[Return Success Response]
+   |
+   v
+[End]
+
+
+I have put this because My account is like it is accepting no more pictures
